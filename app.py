@@ -23,7 +23,7 @@ from langchain.agents import AgentExecutor
 from htmlTemplates import css, bot_template, user_template
 
 # Load environment variables
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "sk-proj-Hh9eJTMj08CFcVP0xvvvT3BlbkFJPKsD2JNougIYkRumxXJ6"
 os.environ['OPENAI_API_KEY'] = OPENAI_API_KEY
 
 # Function to initialize wiki and arxiv tools
