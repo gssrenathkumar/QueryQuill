@@ -22,9 +22,9 @@ from langchain.agents import create_openai_tools_agent
 from langchain.agents import AgentExecutor
 from htmlTemplates import css, bot_template, user_template
 
-print(st.secrets('OPENAI_API_KEY'))
+
 # Load environment variables
-os.environ['OPENAI_API_KEY'] = OPENAI_API_KEY
+os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 
 # Function to initialize wiki and arxiv tools
 def wiki_arxiv_extractor(website_input):
