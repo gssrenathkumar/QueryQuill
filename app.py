@@ -23,7 +23,6 @@ from langchain.agents import AgentExecutor
 from htmlTemplates import css, bot_template, user_template
 
 # Load environment variables
-load_dotenv()
 OPENAI_API_KEY = "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"
 os.environ['OPENAI_API_KEY'] = OPENAI_API_KEY
 
