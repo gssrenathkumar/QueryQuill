@@ -24,7 +24,7 @@ from htmlTemplates import css, bot_template, user_template
 
 
 # Load environment variables
-os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
+OPENAI_API_KEY = st.secrets['OPENAI_API_KEY']
 
 # Function to initialize wiki and arxiv tools
 def wiki_arxiv_extractor(website_input):
